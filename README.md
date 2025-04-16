@@ -1,6 +1,6 @@
 # Secure-File-Storage-as-a-Service
 
-![Logo](FSaaS-log.webp)
+![Logo](FSaaS-logo.webp)
 
 SFSaaS is a cloud simulation project that mimics the behavior of a secure file storage system. This project demonstrates key concepts of cloud storage, cryptography, authentication mechanisms, and client-server communication using **gRPC**.
 
