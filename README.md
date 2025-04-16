@@ -11,6 +11,7 @@ SFSaaS is a cloud simulation project that mimics the behavior of a secure file s
 - **Two-Factor Authentication**:
   - **Machine Authentication**: The client machine is authenticated using a simulated digital certificate (represented as a Python dictionary).
   - **User Authentication**: After the machine is verified, the user must authenticate using a username and password.
+- **User can only access their files**: A user can't access another user file.
 - **File Storage Simulation**: Mimics a secure and structured file storage system in the cloud.
 
 ## 📁 Project Structure
@@ -34,6 +35,8 @@ The system is built on a client-server architecture:
 
 1. Clone the repository
 2. pip install -r requirements.txt
+3. To run the cloud server : python3 cloud_server_grpc.py
+4. To run a client : python3 cloud_client.py
 
 ### 📚 Technologies Used
 
