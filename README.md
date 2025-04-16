@@ -63,4 +63,4 @@ Server verifies credentials against stored data
 Upon successful verification, grants access to cloud resources
 
 ## CTF
-- **Produse a man in the middle attack and try intercep data that are not encrypted**
+- **Produse a man in the middle attack and try to intercep data that are not encrypted**
