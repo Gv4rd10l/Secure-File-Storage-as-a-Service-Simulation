@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package cloud_service;
+
+// Service gRPC pour l'interaction client-serveur
+service CloudService {
+    // Méthode pour une session interactive bidirectionnelle
+    rpc InteractiveSession(stream ClientInput) returns (stream ServerOutput);
+}
+
+// Message envoyé par le client au serveur
+message ClientInput {
+    string input = 1; // Entrée utilisateur (commande ou réponse)
+}
+
+// Message envoyé par le serveur au client
+message ServerOutput {
+    string output = 1; // Réponse ou instruction du serveur
+}
