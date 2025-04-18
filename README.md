@@ -66,8 +66,8 @@ Server verifies credentials against stored data
 Upon successful verification, grants access to cloud resources
 
 - **User The Following credential to authenticate**:
-Username : Neymar
-Password : BestPlayer
+ - **Username : Neymar**
+ - **Password : BestPlayer**
   - **You can have other credential by doing static code analysis** 
 
 ## CTF
