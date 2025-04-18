@@ -64,8 +64,11 @@ If valid, proceeds to user authentication
 User provides username and password
 Server verifies credentials against stored data
 Upon successful verification, grants access to cloud resources
+
+- **User The Following credential to authenticate**:
 Username : Neymar
 Password : BestPlayer
+  - **You can have other credential by doing static code analysis** 
 
 ## CTF
 - **Produse a man in the middle attack and try to intercep data that are not encrypted**
