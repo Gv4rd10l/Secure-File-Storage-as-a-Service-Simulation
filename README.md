@@ -72,4 +72,4 @@ Upon successful verification, grants access to cloud resources
 
 ## CTF
 - **Produse a man in the middle attack and try to intercep data that are not encrypted**
-- **Encrypt the rest of data that have not bee encrypted**
+- **Encrypt the rest of data that have not been encrypted**
